@@ -1,0 +1,53 @@
+# 🌐 HTML & CSS 기초 학습
+
+> **오늘의 목표:** 웹 페이지의 뼈대(HTML)를 잡고 디자인(CSS)을 입히는 기본 문법을 마스터한다.
+
+---
+
+### 🏗️ HTML (HyperText Markup Language)
+웹 페이지의 구조와 의미를 정의하는 마크업 언어입니다.
+
+#### 1. Text & List
+* `<h1>` ~ `<h6>`: 제목 표시 (중요도 순)
+* `<p>`: 문단 구분
+* `<ul>`, `<ol>`, `<li>`: 순서 없는 리스트와 순서 있는 리스트
+
+#### 2. Table & Media
+* `<table>`, `<tr>`, `<th>`, `<td>`: 데이터 표 작성
+* `<img>`: 이미지 삽입 (`alt` 속성으로 접근성 확보)
+* `<video>`, `<audio>`: 멀티미디어 요소 삽입
+
+#### 3. Link & Form
+* `<a>`: 하이퍼링크 (`href` 속성 사용)
+* `<form>`: 사용자 입력 수집
+* `<input>`, `<textarea>`, `<button>`: 다양한 입력 양식
+
+#### 4. 구조 태그 (Semantic)
+* `<div>`, `<span>`: 의미 없는 구획 구분 (CSS 스타일용)
+* **Semantic Tags**: `<header>`, `<nav>`, `<main>`, `<footer>` 등 의미를 가진 태그를 사용하여 SEO와 유지보수성을 높임.
+
+---
+
+### 🎨 CSS (Cascading Style Sheets)
+HTML 요소에 스타일과 레이아웃을 적용하는 스타일시트 언어입니다.
+
+#### 1. Basics & Selectors
+* **선택자**: 요소 선택자, 클래스(`.`), 아이디(`#`) 등
+* **결합자**: 자손, 자식, 인접 형제 선택자 등
+
+#### 2. Text & Box Model
+* **Text**: `font-size`, `color`, `text-align`, `line-height`
+* **Box Model**: `content`, `padding`, `border`, `margin` (모든 요소는 사각형 박스 형태)
+
+#### 3. Layout
+* **Display**: `block`, `inline`, `inline-block`, `none`
+* **Position**: `static`, `relative`, `absolute`, `fixed`, `sticky`
+* **Flexbox / Grid**: 현대적인 레이아웃 배치 기술
+
+#### 4. Interaction & Style
+* **Hover**: `:hover` 등 가상 선택자를 이용한 반응형 스타일
+* **Transition**: 상태 변화를 부드럽게 만드는 애니메이션 효과
+
+---
+
+최종 수정일: 2026-04-07
